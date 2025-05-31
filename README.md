@@ -1,15 +1,14 @@
-Welcome to your new dbt project!
+# 🗽 NYC Taxi Trips – Analytics Engineering Project
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
+This project leverages **dbt (Data Build Tool)** and **Databricks** to model and document New York City taxi trip data made available by the [NYC Taxi and Limousine Commission (TLC)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+## 📦 Tech Stack
+
+- **dbt**: Data transformation, testing, and documentation
+- **Databricks**: Cloud data platform for data storage and processing
+
+## 🎯 Project Objectives
+
+- ...
