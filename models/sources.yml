@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_trip_data
+    database: dbt
+    schema: raw_data
+    tables:
+      - name: green_taxi_trips_jan2025
+        description: > 
+          Trip-level data for green taxis in New York City for January 2025.
+          Green taxis, also known as boro taxis or street-hail liveries, were introduced in August 2013
+          to improve taxi service in the outer boroughs and northern Manhattan. They operate similarly to yellow taxis,
+          and the dataset includes fields such as pickup and dropoff timestamps, trip distance, fare, tip amount, and location IDs.
