@@ -4,12 +4,12 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 
 
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **dbt**: Data transformation, testing, and documentation
 - **Databricks**: Cloud data platform for data storage and processing
 
-## 🎯 Project Objectives
+## Project Objectives
 
 In this project, I designed and implemented an end-to-end analytics pipeline using public data from the NYC Taxi & Limousine Commission (TLC). The pipeline consists of the following steps:
 
@@ -19,4 +19,15 @@ In this project, I designed and implemented an end-to-end analytics pipeline usi
 
 The sections below will explain details on the technologies and files utilized.
 
-##
+## Data set
+
+[NYC Taxi website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) 
+
+This official website maintained by the **New York City Taxi and Limousine Commission (TLC)** provides public access to trip-level taxi data.
+
+It includes:
+
+- Raw Parquet files for trip records, available monthly.
+- Data dictionaries describing each field in detail.
+- Taxi Zone Maps and lookup tables to relate pickup and dropoff location IDs to NYC neighborhoods and boroughs.
+
