@@ -11,3 +11,89 @@ sources:
           Green taxis, also known as boro taxis or street-hail liveries, were introduced in August 2013
           to improve taxi service in the outer boroughs and northern Manhattan. They operate similarly to yellow taxis,
           and the dataset includes fields such as pickup and dropoff timestamps, trip distance, fare, tip amount, and location IDs.
+          
+        columns:
+        - name: vendor_id
+          description: >
+            Code indicating the LPEP provider that submitted the trip record.
+            1 = Creative Mobile Technologies, LLC; 2 = VeriFone Inc.
+
+        - name: lpep_pickup_datetime
+          description: >
+            Date and time when the trip began and the taximeter was engaged.
+
+        - name: lpep_dropoff_datetime
+          description: >
+            Date and time when the trip ended and the taximeter was disengaged.
+
+        - name: passenger_count
+          description: >
+            Number of passengers in the vehicle, manually entered by the driver.
+
+        - name: trip_distance
+          description: >
+            Total distance of the trip in miles, as reported by the taximeter.
+
+        - name: pickup_longitude
+          description: >
+            Longitude coordinate where the trip started.
+
+        - name: pickup_latitude
+          description: >
+            Latitude coordinate where the trip started.
+
+        - name: rate_code_id
+          description: >
+            Final rate code used for the trip.
+            1 = Standard rate; 2 = JFK; 3 = Newark; 4 = Nassau or Westchester; 5 = Negotiated fare; 6 = Group ride.
+
+        - name: store_and_fwd_flag
+          description: >
+            Indicates if the trip data was temporarily stored in vehicle memory before being sent to the vendor due to a connectivity issue.
+            Y = store and forward trip; N = not a store and forward trip.
+
+        - name: dropoff_longitude
+          description: >
+            Longitude coordinate where the trip ended.
+
+        - name: dropoff_latitude
+          description: >
+            Latitude coordinate where the trip ended.
+
+        - name: payment_type
+          description: >
+            Code describing how the passenger paid for the trip.
+            1 = Credit card; 2 = Cash; 3 = No charge; 4 = Dispute; 5 = Unknown; 6 = Voided trip.
+
+        - name: fare_amount
+          description: >
+            Fare charged for the trip based on time and distance, as calculated by the meter.
+
+        - name: extra
+          description: >
+            Miscellaneous surcharges, such as $0.50 or $1 rush hour and overnight charges.
+
+        - name: mta_tax
+          description: >
+            $0.50 MTA tax automatically triggered based on the metered rate.
+
+        - name: improvement_surcharge
+          description: >
+            $0.30 surcharge applied to all hailed trips, introduced in 2015.
+
+        - name: tip_amount
+          description: >
+            Tip amount. Automatically populated for credit card payments. Cash tips are not included.
+
+        - name: tolls_amount
+          description: >
+            Total toll amount paid by the passenger for the trip.
+
+        - name: total_amount
+          description: >
+            Total amount charged to the passenger for the trip. Cash tips are excluded.
+
+        - name: trip_type
+          description: >
+            Code indicating whether the trip was street-hail or dispatched.
+            1 = Street-hail; 2 = Dispatch.
