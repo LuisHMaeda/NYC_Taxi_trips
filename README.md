@@ -8,6 +8,7 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 
 - **dbt**: Data transformation, testing, and documentation
 - **Databricks**: Cloud data platform for data storage and processing
+- **Power BI**: Data visualization
 
 ## Project Objectives
 
