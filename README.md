@@ -11,4 +11,12 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 
 ## 🎯 Project Objectives
 
-- ...
+In this project, I designed and implemented an end-to-end analytics pipeline using public data from the NYC Taxi & Limousine Commission (TLC). The pipeline consists of the following steps:
+
+1. Extracted raw Parquet files from the NYC Trip Record Data website and loaded them into Databricks for further processing.
+2. Transformed and modeled the data using dbt, applying tests and documentation through dbt’s built-in features.
+3. Developed interactive dashboards in Power BI, visualizing key metrics such as average trip duration, tip amounts, payment types, and trip distribution by zone.
+
+The sections below will explain details on the technologies and files utilized.
+
+##
