@@ -32,6 +32,11 @@ It includes:
 - Data dictionaries describing each field in detail.
 - Taxi Zone Maps and lookup tables to relate pickup and dropoff location IDs to NYC neighborhoods and boroughs.
 
+## Architecture
+
+![NYC_taxi_architecture](https://github.com/user-attachments/assets/fb85a199-1b93-47a7-bb13-380eacd806e9)
+
+
 ## Data Model
 
 This project follows the Star Schema dimensional modeling approach, widely used in analytics engineering and data warehousing.
