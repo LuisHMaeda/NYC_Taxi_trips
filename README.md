@@ -5,9 +5,9 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 
 
 ## Tech Stack
-
+- **Amazon Web Services (AWS)**: Cloud infrastructure and storage layer
+- **Databricks**: Lakehouse platform for data processing and analytics
 - **dbt**: Data transformation, testing, and documentation
-- **Databricks**: Cloud data platform for data storage and processing
 - **Power BI**: Data visualization
 
 ## Project Objectives
