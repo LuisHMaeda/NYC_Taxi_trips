@@ -5,18 +5,20 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 
 
 ## Tech Stack
-
+- **Amazon Web Services (AWS)**: Cloud infrastructure and storage layer
+- **Databricks**: Lakehouse platform for data processing and analytics
 - **dbt**: Data transformation, testing, and documentation
-- **Databricks**: Cloud data platform for data storage and processing
 - **Power BI**: Data visualization
+
+![NYC_taxi_architecture](https://github.com/user-attachments/assets/fb85a199-1b93-47a7-bb13-380eacd806e9)
 
 ## Project Objectives
 
 In this project, I designed and implemented an end-to-end analytics pipeline using public data from the NYC Taxi & Limousine Commission (TLC). The pipeline consists of the following steps:
 
-1. Extracted raw Parquet files from the NYC Trip Record Data website and loaded them into Databricks for further processing.
+1. Extracted raw Parquet files from the NYC Trip Record Data in website and loaded them into Databricks (AWS) for further processing.
 2. Transformed and modeled the data using dbt, applying tests and documentation through dbt’s built-in features.
-3. Developed interactive dashboards in Power BI, visualizing key metrics such as average trip duration, tip amounts, payment types, and trip distribution by zone.
+3. Developed a interactive dashboard in Power BI, visualizing key metrics such as average trip duration, tip amounts, payment types, and trip distribution by zone.
 
 The sections below will explain details on the technologies and files utilized.
 
@@ -31,4 +33,12 @@ It includes:
 - Raw Parquet files for trip records, available monthly.
 - Data dictionaries describing each field in detail.
 - Taxi Zone Maps and lookup tables to relate pickup and dropoff location IDs to NYC neighborhoods and boroughs.
+
+
+
+## Data Model
+
+This project follows the Star Schema dimensional modeling approach, widely used in analytics engineering and data warehousing.
+
+![NYC_taxi_data_model](https://github.com/user-attachments/assets/f5bc9669-745b-4823-85c8-fb2b1cc61248)
 
