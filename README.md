@@ -10,6 +10,8 @@ This project leverages **dbt (Data Build Tool)** and **Databricks** to model and
 - **dbt**: Data transformation, testing, and documentation
 - **Power BI**: Data visualization
 
+![NYC_taxi_architecture](https://github.com/user-attachments/assets/fb85a199-1b93-47a7-bb13-380eacd806e9)
+
 ## Project Objectives
 
 In this project, I designed and implemented an end-to-end analytics pipeline using public data from the NYC Taxi & Limousine Commission (TLC). The pipeline consists of the following steps:
@@ -32,9 +34,6 @@ It includes:
 - Data dictionaries describing each field in detail.
 - Taxi Zone Maps and lookup tables to relate pickup and dropoff location IDs to NYC neighborhoods and boroughs.
 
-## Architecture
-
-![NYC_taxi_architecture](https://github.com/user-attachments/assets/fb85a199-1b93-47a7-bb13-380eacd806e9)
 
 
 ## Data Model
